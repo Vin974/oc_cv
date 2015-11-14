@@ -14,6 +14,30 @@
 body {
     background: url("http://fe867b.medialib.glogster.com/iolatin/media/cb/cb10edb9e714e6f6d01db6b577796a9c49acd3e2/papier.jpg");
     font-family: robotoregular, Arial, sans-serif;
+
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    font-size: 0;
+}
+
+.liseret {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+
+    background-color: #222;
+}
+
+.container {
+    display: inline-block;
+    padding: 0 10px 0 11%;
+    font-size: 16px;
 }
 
 header {
@@ -27,4 +51,10 @@ header #photo {
 
 h2 {
     color: dimgray;
+}
+
+section {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
 }
